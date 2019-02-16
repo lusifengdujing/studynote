@@ -1,0 +1,65 @@
+localStotage:存储本地文件
+事件：绑定监听，触发事件
+
+订阅消息 :绑定监听
+发布消息：触发事件
+
+绑定监听：$on->vm的方法 $on(eventName)监听事件
+		         $emit(eventName,optionalPayload)触发事件 	
+
+slot插槽：此方式用于父组件向子组件传递`标签数据`，标签通信
+	其他方式是数据通信
+
+vue UI组件库
+Mint UI：移动端 https://mint-ui.github.io/#!/zh-cn	
+Elment：PC端 
+
+SPA 应用，单页应用
+路由器：管理路由，
+路由：
+	1.映射关系，k->v
+	2.k:path ;v:处理请求的回调函数（后台路由）；组件（前端路由）
+当前路由组件
+	<router-view>:用来显示当前路由组件界面        
+编写使用路由的3步：
+	1.定义路由组件
+	2.注册路由
+	3.使用路由<router-link> <router-view>
+
+路由缓存 （组件对象）
+	<keep-alive>
+		<router-view></router-view>
+	<keep-alive>
+ 	实时性
+
+页面跳转
+a->b
+1.添加标签
+	扩充：URL
+		结构：第一部分：模式/协议（scheme）:
+		          第二部分：文件所在的服务器的名称或IP地址，后面是到达这个文件的路径和文件本身的名称。
+
+XMLHttpRequest 对象：用于在后台与服务器交换数据。这意味着可以在不重新加载整个网页的情况下，对网页的某部分进行更新。
+
+编程式路由导航（用js)
+Sass使用
+
+业务开发流程：1.技术选型 2.业务开发 3.测试验证 4.发布上线
+		技术选型：构建工具  mvvm框架选择 模块化设计 自适应方案设计 代码维护及复用性设计的思考
+			构建工具：1.有哪些：gulp grunt webpack fis prepack rollup
+				2.为什么要构建工具：资源压缩 静态资源替换 模块化处理 编译处理
+				3.使用webpack npm scripts
+		MVVM框架选择：Vue.js React.js Angular.js
+		模块化设计 ：CSS模块化设计
+		自适应方案设计：js+css
+		代码：需求变更 产品迭代 Bug定位 新功能开发
+
+	css模块化设计
+		1.设计原则
+		a.可复用能继承要完整
+		b.周期性迭代
+		2.设计方法
+		a.先整体后部分再颗粒化
+		b.先抽象再具体
+代码重构（英语：Code refactoring）指对软件代码做任何更动以增加可读性或者简化结构而不影响输出结果。
+
